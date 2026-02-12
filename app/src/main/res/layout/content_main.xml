@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <Button
+        android:id="@+id/mBtnLineLaserStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="经典线条扫描效果"/>
+
+    <Button
+        android:id="@+id/mBtnGridLaserStyle1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="经典网格扫描效果1"/>
+
+    <Button
+        android:id="@+id/mBtnGridLaserStyle2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="经典网格扫描效果2"/>
+
+    <Button
+        android:id="@+id/mBtnGradientStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="渐变扫描效果"/>
+
+    <Button
+        android:id="@+id/mBtnImageStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="经典自定义图片扫描效果"/>
+
+    <Button
+        android:id="@+id/mBtnPopularViewFinderStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="流行（无框）自定义图片扫描效果"/>
+
+    <Button
+        android:id="@+id/mBtnShowResultPointsStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="显示结果点"/>
+
+    <Button
+        android:id="@+id/mBtnShowDiyResultPointsStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="显示自定义结果点"/>
+</LinearLayout>
